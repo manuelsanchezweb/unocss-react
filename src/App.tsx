@@ -13,8 +13,8 @@ function App() {
       {/* Section 1 - Basic preset */}
       <section>
         <h2 className="text-3xl text-blue-500 py-4 max-w-[600px]">
-          1. Basic preset: Use of Tailwind, Bootstrap or Windy utility
-          classNamees
+          1. Basic preset: Use of Tailwind, Bootstrap or Windy utility class
+          names
         </h2>
         <h3 className="pb-4">Spacing</h3>
         <div>
@@ -78,7 +78,8 @@ function App() {
       </section>
       {/* Section 3 - Attribufy preset */}
       <section>
-        <h2 className="text-3xl text-blue-500 py-4 ">
+        {/* <h2 className="text-3xl text-blue-500 py-4 "> */}
+        <h2 text="3xl red-500" className="py-4 ">
           3. Use of other presets: attribufy
         </h2>
         <div flex justify-between>
@@ -94,6 +95,8 @@ function App() {
         <h2 className="text-3xl text-blue-500 py-4">
           4. Use of other presets: tagify (classes as tags!)
         </h2>
+
+        <manu>Hola</manu>
 
         <flex justify-between>
           <text-orange>Hola</text-orange>
